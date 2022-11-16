@@ -16,7 +16,7 @@ public class JavaSlut{
         //the date that will be the basis of the printWeek 
         LocalDate date = LocalDate.now();
 
-        //frame now contains the week, printed out
+        //frame now contains the week
         frame = Interface.printWeek(x, y, date, frame);
 
         //why is it default invisible ????
